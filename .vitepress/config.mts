@@ -54,4 +54,5 @@ export default defineConfig({
     ]
   },
   srcDir: 'src',
+  ignoreDeadLinks: true,
 })
