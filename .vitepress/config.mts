@@ -23,6 +23,7 @@ export default defineConfig({
           { text: 'Importing Maps', link: '/general/maps' },
           { text: 'Importing Animations', link: '/general/animations' },
           { text: 'Facial Flexes', link: '/general/facial-flexes' },
+          { text: 'Light Warps', link: '/general/lightwarps' }
         ]
       },
       {
