@@ -16,3 +16,5 @@ Make sure none of the objects are linked to the rest of the map. If they are, th
 
 After that, Shift Click the Empty. This is important because otherwise it won’t line up.
 Finally, click ``Object`` -> ``Transform VMF 3D sky``.
+
+![Skybox Tutorial](/applying_map_skybox.gif)

@@ -19,6 +19,8 @@ Blender exposes an addons system for us to extend the program with. Here are som
 
 In order to install addons, go to ``Edit`` -> ``Preferences``. In the addons menu, click on the install button and then select the **zipped addon** (and not the extracted version).
 
+![Installing Addons](/installing_addons.gif)
+
 ## VPKEdit
 
 VPKEdit is a program that allows us to read and write to VPK files. It can be downloaded from [GitHub](https://github.com/craftablescience/VPKEdit).
