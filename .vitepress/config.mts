@@ -45,7 +45,7 @@ export default defineConfig({
           { text: 'The Community Workshop', link: '/miscellaneous/workshop' },
           { text: 'Rigging', link: '/miscellaneous/rigging.md' },
           { text: 'OptiPloy', link: '/miscellaneous/optiploy' },
-          { text: 'Standard Colorspace', link: '/miscellaneous/standard-colorspace' },
+          { text: 'Standard Color Space', link: '/miscellaneous/standard-colorspace' },
         ]
       }
     ],
