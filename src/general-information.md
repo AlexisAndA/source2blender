@@ -17,9 +17,6 @@ The index starts from 0 (like most programming languages).
 :::
 
 ```mermaid
----
-title: Typical Valve Package
----
 flowchart LR
     newLines["`tf2_sound_vo_english_000.vpk
     tf2_sound_vo_english_001.vpk
@@ -33,6 +30,14 @@ MDL is Source's model format.
 
 Additional data can be stored in ``PHY``, ``ANI``, ``VTX`` and ``VVD`` files.
 
+```mermaid
+flowchart TD
+        B{"heavy.mdl"}
+        B --> heavy.phy
+        B --> heavy.sw.vtx
+        B --> heavy.vvd
+```
+
 ## VTF and VMT
 
 The Source Engine defines **M**aterials in VMT files, and those materials reference **T**extures that are stored in the VTF format.
@@ -40,3 +45,14 @@ The Source Engine defines **M**aterials in VMT files, and those materials refere
 ## BSP and VMF
 
 The Hammer Editor stores map projects as VMF files (like a PSD) and the exported map has the BSP extension.
+
+```mermaid
+flowchart LR
+        Hammer["Hammer Editor"]
+        Vmf("VMF")
+        Hammer --> Vmf
+        Compiler["Compiler"]
+        Vmf --> Compiler
+        Bsp("BSP")
+        Compiler --> Bsp
+```

@@ -6,6 +6,8 @@ The Source Engine supports facial flexes via blend shapes (shape keys in Blender
 
 Hardware Morph or HWM is the primary system used by high quality models in Source Filmmaker. They offer advanced face posing capabilities.
 
+![Face Poser Showcase](/faceposer.gif)
+
 A model utilizes HWM if it has blend shapes named ``BrowOutV``, ``SmileFull`` or ``PuffLipsLo``.
 
 ### Conversion
