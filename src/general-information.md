@@ -16,6 +16,17 @@ Keep in mind that the format stores content across multiple files. The directory
 The index starts from 0 (like most programming languages).
 :::
 
+```mermaid
+---
+title: Typical Valve Package
+---
+flowchart LR
+    newLines["`tf2_sound_vo_english_000.vpk
+    tf2_sound_vo_english_001.vpk
+    tf2_sound_vo_english_002.vpk`"]
+    tf2_sound_vo_english_dir.vpk --> newLines
+```
+
 ## MoDeL
 
 MDL is Source's model format.

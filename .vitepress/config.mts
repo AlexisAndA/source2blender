@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "Source 2 Blender",
   description: "Simple, Beginner-Friendly Documentation",
   themeConfig: {
@@ -57,4 +57,8 @@ export default defineConfig({
   },
   srcDir: 'src',
   ignoreDeadLinks: true,
+
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
 })
