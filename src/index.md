@@ -5,6 +5,8 @@ layout: home
 hero:
   name: "Source 2 Blender"
   text: "Simple, Beginner-Friendly Documentation"
+  image: 
+    src: /favicon.png
   actions:
     - theme: brand
       text: Get Started
