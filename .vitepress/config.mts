@@ -55,7 +55,10 @@ export default withMermaid({
       { icon: 'github', link: 'https://github.com/AlexisAndA/source2blender' }
     ]
   },
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [
+    ['meta', { name: 'google-site-verification', content: 'h6nemsV6-Yz0U5uxVh85-O5Ve8jA-snwycvcDe3pNrg' }],
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   srcDir: 'src',
   ignoreDeadLinks: true,
 
