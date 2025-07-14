@@ -6,6 +6,12 @@ In order to bring a map from Source to Blender, follow these steps:
 2. Decompile the map to a VMF file with BSPSource.
 3. Import the map via Plumber from ``File`` -> ``Import`` -> ``Plumber`` -> ``Valve Map Format (.vmf)`` in Blender
 
+::: info
+Some maps have embedded materials. In order to use these:
+1. Enable the ``Extract embedded files`` option.
+2. Input the newly created folder's directory in Plumber's import settings.
+:::
+
 ## Applying the Skybox
 
 Maps in the Source Engine may have 3D sky boxes. To apply a Skybox, first find it in the corner, then select all the objects that are near it.
