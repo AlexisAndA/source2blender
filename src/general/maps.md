@@ -8,7 +8,7 @@ In order to bring a map from Source to Blender, follow these steps:
 
 ::: info
 Some maps have embedded materials. In order to use these:
-1. Enable the ``Extract embedded files`` option.
+1. Enable the ``Extract embedded files`` option in BSPSource.
 2. Input the newly created folder's directory in Plumber's import settings.
 :::
 
