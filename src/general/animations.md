@@ -7,3 +7,7 @@ You can import animation files (typically files with the SMD format) with Blende
 ::: warning
 Most animations are **additive**! They cannot be imported into Blender easily.
 :::
+
+::: warning
+If this doesn't work for you try using Blender 4.1.
+:::
